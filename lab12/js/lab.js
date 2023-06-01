@@ -1,10 +1,8 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 12 Conditionals
+// Author: Eri Foulds
+// Date: 5.22.23
 
-// Constants
-
-// Functions
+// Function Sorting Hat
 function sortingHat(str) {
   len = str.length;
   mod = len % 4;
@@ -21,6 +19,7 @@ function sortingHat(str) {
     return "Hufflepuff"
   }
 }
+
 {
   var myButton = document.getElementById("button");
   myButton.addEventListener("click", function() {
