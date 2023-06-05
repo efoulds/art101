@@ -1,16 +1,15 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 15 AJAX
+// Author: Eri Foulds
+// Date: 6.1.23
 
-// Constants
-
+//function 
 function yesNo() {
 $.ajax({
   url: "https://yesno.wtf//api",
   type: "GET",
   data: {},
 })
-
+//results
 .done(function(data) {
   var yes = data.answer;
   var no = data.image;
@@ -18,5 +17,5 @@ $.ajax({
   $("#output").append("<img src=" + no + ">");
 })
 }
-
+//button
 $("button").click(yesNo)

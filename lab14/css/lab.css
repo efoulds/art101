@@ -8,4 +8,12 @@
     background-color: #DDD8C4;
   }
 
-  
+#javascript_debug {
+    width:600px;
+  }
+#html_debug {
+    width:400px;
+  }
+#debug_result {
+    width:400px;
+  }
